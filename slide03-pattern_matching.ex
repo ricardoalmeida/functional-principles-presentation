@@ -16,4 +16,7 @@ IO.puts 2 = a
 # [a, b] = [1, 2]
 # [a, a] = [1, 2]
 
-# No Erlang, uma variável pode ser atribuída apenas uma vez
+# Elixir’s pattern matching is similar to Erlang’s
+# (the main difference being that Elixir allows a match
+# to assign to a variable that was assigned in a prior match,
+# whereas in Erlang a variable can be assigned only once).
