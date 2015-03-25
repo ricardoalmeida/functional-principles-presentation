@@ -1,12 +1,8 @@
 
 
 
+# Functional Refactorings
 
-
-
-# init-empty + each + push = map
-# init-empty + each + conditional push -> select/reject
-# initialize + each + accumulate -> inject
 
 #NO
 
@@ -20,4 +16,8 @@ puts length # => 14
 
 length = ["milu", "rantanplan"].map(&:length).inject(0, :+) # 14
 
+
+# init-empty + each + push = map
+# init-empty + each + conditional push -> select/reject
+# initialize + each + accumulate -> inject
 

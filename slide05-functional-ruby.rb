@@ -16,10 +16,6 @@ class Foo
   end
 
   defn(:greet, _) { |name|
-    "Pleased to meet you, #{name.full_name}!"
-  }.when {|name| Type?(name, CustomerModel, ClientModel) }
-
-  defn(:greet, _) { |name|
     "Hello, #{name.first} #{name.last}!"
   }.when {|name| Satisfy?(name, :Name) }
 
