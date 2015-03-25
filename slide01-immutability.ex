@@ -10,16 +10,16 @@
 #     Pattern Matching
 
 IO.puts fn ->
-  # a = 1
-  # 1 = a
-  # 2 = a
+  a = 1
+  1 = a
+  2 = a
 
   # a = 2
   # ^a = 1
 
-  [a, b] = [1, 2]
-  [a, a] = [1, 2]
-  a + b
+  # [a, b] = [1, 2]
+  # [a, a] = [1, 2]
+  # a + b
 end.()
 
 # Elixir’s pattern matching is similar to Erlang’s

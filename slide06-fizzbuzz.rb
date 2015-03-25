@@ -1,3 +1,9 @@
+
+
+
+
+# FizzBuzz without anonymous functions
+
 (1..100).each do |n|
   if (n % 15).zero?
     puts 'FizzBuzz'
